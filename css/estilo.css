@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Babylonica&family=Cormorant+Upright:wght@300&family=Fjalla+One&family=Gwendolyn&family=Indie+Flower&family=La+Belle+Aurore&family=Lobster&family=Niconne&family=Roboto:ital,wght@0,300;0,400;1,400&family=Zeyada&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+/**** menu titulo e links ****/
+
+.conteudoHeader {
+	width: 100vw;
+	height: 10.5vh;
+	background: #363636;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+	position: fixed;
+	background: transparent;
+}
+
+.tituloPizzaria {
+	font-size: 2.5em;
+	margin-left: 1.8em;
+	color: #fff;
+}
+
+.tituloPizzaria:hover {
+	color: #FFD700;
+}
+
+.links ul {
+	align-items: center;
+	display: flex;
+}
+
+.links ul a {
+	font-size: 1.1em;	
+	margin: 1em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.links a:hover {
+	color: #FFD700;
+	text-decoration: underline;
+	text-transform: uppercase;
+	border-radius: 10px;
+	border: 0.5px solid #FFD700;
+	padding: 0.3em;
+	transition: all 0.6s ease;
+}
+
+/**** section postagem ****/
+
+.sectionPostagem {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(rgba(50, 50, 50, 0.80), rgba(50, 50, 50, 0.80)), url('../imagens/fundo-pizza.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.sectionPostagem h2 {
+	font-family: 'Cormorant Upright', serif;
+	margin-bottom: 0.3em;
+	font-size: 3.3em;
+	color: #FFD700;
+}
+
+.sectionPostagem p {
+	font-family: 'Cormorant Upright', serif;
+	font-size: 2.3em;
+	color: #fff;
+	text-align: center;
+}
+
+.btn {
+	text-align: center;
+	margin-top: 1em;
+}
+
+.btn button {
+	width: 11vw;
+	height: 7vh;
+	margin: 0.3em;
+	border-radius: 10px;
+	font-size: 1em;
+	background: #FFD700;
+	color: #000;
+	border: 0.5px solid #FFD700;
+	cursor: pointer;
+}
+
+.btn button:hover {
+	color: #FFD700;
+	background: transparent;
+	transition: all 0.8s ease;
+}
+
+/**** section sobre nos ****/
+
+.sectionSobreNos {
+	background: linear-gradient(rgba(50, 50, 50, 0.80), rgba(50, 50, 50, 0.80)), url('../imagens/fundo-pizza.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	align-items: center;
+	display: flex;
+}
+
+.sectionSobreNos h2 {
+	color: #FFD700;
+	font-size: 2.2em;
+	text-align: center;
+	margin-left: -3.5em;
+	margin-bottom: 0.5em;
+}
+
+.sectionSobreNos p {
+	width: 60vw;
+	height: auto;
+	text-align: center;
+	color: #fff;
+	padding: 0 2em;
+	margin-left: -9.3em;
+}
+
+.btnVoltar {
+	margin-top: -32em;
+	margin-left: 4em;
+	width: 7vw;
+	height: 6vh;
+	border-radius: 10px;
+	font-size: 1em;
+	background: #FFD700;
+	color: #000;
+}
+
+.btnVoltar a {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 0.5em;
+	color: #000;
+}
+
+/**** section cardapío ****/
+
+.btnVoltar-2 {
+	width: 7vw;
+	height: 6vh;
+	background: #FFD700;
+	margin-top: 2em;
+	margin-left: 4em;
+	border-radius: 10px;
+}
+
+.btnVoltar-2 a {
+	color: #000;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	padding-top: 0.5em;
+}
+
+/**** section cardápio ****/
+
+.sectionCardapio {
+	background: linear-gradient(rgba(50, 50, 50, 0.80), rgba(50, 50, 50, 0.80)), url('../imagens/fundo-pizza-2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+}
+
+.btnVoltar-3 {
+	width: 7vw;
+	height: 6vh;
+	background: #FFD700;
+	margin-top: 2em;
+	margin-left: 4em;
+	margin-bottom: 2em;
+	border-radius: 10px;
+}
+
+.btnVoltar-3 a {
+	color: #000;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	padding-top: 0.5em;
+}
+
+.tituloCardapio {
+	text-align: center;
+	font-size: 2.5em;
+	color: #FFD700;
+	padding-top: 2em;
+	margin-left: 0.6em;
+}
+
+.caixaCardapio {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 2em;
+}
+
+.caixaCardapio-2 {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: em;
+}
+
+.cardapio {
+	width: 270px;
+	height: 220px;
+	background: transparent;
+	border: 0.5px solid #FFD700;
+	border-radius: 10px;
+	margin-left: 2em;
+}
+
+.cardapio-2 {
+	width: 270px;
+	height: 220px;
+	background: transparent;
+	border: 0.5px solid #FFD700;
+	border-radius: 10px;
+	margin-left: 2em;
+	margin-top: -11em;
+}
+
+.cardapio-2 h2 {
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 0.5em;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: #FFD700;
+}
+
+.cardapio-2 p {
+	text-align: center;
+	margin-top: 1.2em;
+	color: #fff;
+}
+
+.cardapio h2 {
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 0.5em;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: #FFD700;
+}
+
+.cardapio p {
+	text-align: center;
+	margin-top: 1.2em;
+	color: #fff;
+}
+
+.btnPedir {
+	text-align: center;
+	margin-top: 0.9em;
+}
+
+.btnPedir button {
+	font-size: 1em;
+	background: #FFD700;
+	padding: 0.6em 0.6em;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.btnPedir button:hover {
+	background: transparent;
+	border: 0.5px solid #FFD700;
+	color: #FFD700;
+	transition: all 0.7s ease;
+}
+
+.preco {
+	margin-top: 2.4em;
+}
+
+.sectionCardapio-2 {
+	background: linear-gradient(rgba(50, 50, 50, 0.80), rgba(50, 50, 50, 0.80)), url('../imagens/fundo-pizza-3.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	margin-top: -2em;
+}
+
+.sectionCardapio-3 {
+	margin-top: -24.3em;
+	margin-left: 1.2em;
+}
+
+.sectionCardapio-4 {
+	margin-top: 12.8em;
+	margin-left: 1.2em;
+}
+
+/**** section contato ****/
+
+.sectionContato {
+	background: linear-gradient(rgba(50, 50, 50, 0.80), rgba(50, 50, 50, 0.80)), url('../imagens/fundo-pizza-3.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+}
+
+.postagemContato {
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	text-align: center;
+}
+
+.postagemContato h1 {
+	font-size: 5.5em;
+	font-family: 'Cormorant Upright', serif;
+	color: #FFD700;
+}
+
+.postagemContato p {
+	color: #fff;
+	font-size: 1.3em;
+	margin-bottom: 0.5em;
+	font-family: 'Cormorant Upright', serif;
+}
+
+
+
+
+
+
+
+
+
